@@ -173,3 +173,15 @@ git push origin main # envoie explicitement main vers origin
 ```
 
 Si le push est refusé (« rejected »), faire `git pull` d'abord.
+
+### Merge Conflicts
+
+Quand deux branches modifient les mêmes lignes, Git marque le fichier :
+
+```text
+<<<<<<< HEAD
+version de la branche courante
+=======
+version de la branche fusionnée
+>>>>>>> nom
+```
