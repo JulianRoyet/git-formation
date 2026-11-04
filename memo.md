@@ -1,4 +1,4 @@
-# Mémo Git
+# Mémo Git (AJOUT A POUR MERGE CONFLICT)
 
 ### Concepts
 - **Dépôt (repository)**: Le projet suivi par Git (dossier caché .git)
