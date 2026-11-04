@@ -12,7 +12,11 @@
 - **Fork**: Autre version d'un dépot qui part d'une copie du dépot de quelqu'un d'autre
 - **Pull request (PR)**: Demande d'intégration de sa branche dans une autre
 
+### git et Github
 
+- git est un logiciel qui permet de gérer les versions du code
+- github est une plateforme qui héberge des repos git (et bien plus)
+- certaines alternatives comme gitlab peuvent être hebergées sur des serveurs privés
 
 ### Cycle de base : 
 - modifier
