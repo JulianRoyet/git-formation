@@ -1,4 +1,4 @@
-# Mémo Git (AJOUT A POUR MERGE CONFLICT)
+# Mémo Git (MERGE CONFLICT RESOLU AB)
 
 ### Concepts
 - **Dépôt (repository)**: Le projet suivi par Git (dossier caché .git)
@@ -185,3 +185,17 @@ version de la branche courante
 version de la branche fusionnée
 >>>>>>> nom
 ```
+
+### LFS
+
+Stocke les gros fichiers (images, vidéos, binaires) hors du dépôt, seul un pointeur est
+versionné.
+
+```bash
+git lfs install # active LFS (une fois par machine)
+git lfs track "*.mp4" # suit les .mp4 avec LFS (écrit dans .gitattributes)
+git add .gitattributes # commiter la règle de suivi
+git lfs ls-files # liste les fichiers gérés par LFS
+git lfs pull # télécharge les fichiers LFS
+```
+
