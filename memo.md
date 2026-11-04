@@ -203,3 +203,6 @@ git lfs ls-files # liste les fichiers gérés par LFS
 git lfs pull # télécharge les fichiers LFS
 ```
 
+### Note
+
+En plus de nbdime, il existe l'extension "Notebook git diff" sur vscode
